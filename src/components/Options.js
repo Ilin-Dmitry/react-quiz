@@ -1,4 +1,4 @@
-function Options({ question }) {
+function Options({ question, dispatch, answer }) {
   return (
     <div className="options">
       {question.options.map((option) => (
